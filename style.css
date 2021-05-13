@@ -1,0 +1,208 @@
+body{
+    background-attachment: fixed;
+background-image:url(images/.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+     background-color:cadetblue;  
+} 
+
+nav{
+    font-size: 25px;
+    text-decoration: none;
+    text-align: right;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 30px;
+    background-color:white;
+      
+    
+    /* cursor: pointer; */
+
+}
+
+nav a {
+
+    display: inline-block;
+    padding: 6px 6.5px;
+    font-weight: 200;
+    color:black;
+    cursor: pointer;
+    text-decoration: none;
+    font-family: Arial;
+    float:left;
+
+}
+#me{
+    text-align: right;
+    font-size: 50px;
+    font-style: oblique;
+    color:black;
+}
+nav a:hover{
+background-color:green;
+/* opacity: 0.34; */
+ 
+}
+ .title{
+    font-size: 70px;
+    font-style: italic;
+    text-align: center;
+    background-color: gray;
+ }
+
+h2{
+    font-size: 20px;
+    font-style: italic;
+    color:black;
+    text-align: center;
+
+
+}
+p{
+    font-size: 70px;
+    color:white;
+    font-weight: 100;
+    text-align: center;
+    ;
+} 
+.shape{
+ width: 50px;
+ margin-right: auto;
+ text-align: center;
+}
+.shape img{
+    border-radius: 50%;
+    text-align: right;
+
+}
+ #aboutme{
+    text-align: center;
+    font-size: 50px;
+    font-style: italic;
+} 
+
+ .row:after{ 
+    content: " ";
+    display: table;
+    font-style: italic;
+    clear:both;
+     
+ } 
+ .column{
+    float:left;
+    width: 33.3%;
+    height: 300px;
+    margin: 0;
+ }
+ #abit{
+     text-align: left;
+     font-style: oblique;
+     
+
+ }
+ .paragraph{
+     padding: 0px;
+     margin: 20px;
+    font-size: 15px;
+    color: black;
+    font-style: oblique;
+    
+   
+
+ }
+ #background{
+     padding-top: 20%;
+     text-align: left;
+     border-radius: 20%;
+     font-style: oblique;
+     
+ }
+ 
+ 
+ 
+  #blog1{
+     text-align: left;
+     font-style: italic;
+     margin-right: 50px;
+     
+     
+
+     
+ } 
+ #blog2{
+     
+     background-color: cadetblue;
+     word-break: break-all;
+     margin-right: 80px;
+     border-width: 60px;
+     
+
+ }
+
+  .blogs{
+     text-align: left;
+     font-size: 10;
+     float:left;
+     background-color: cadetblue;
+     border-width: 60px;
+     margin-right: 60px;
+     
+     
+
+ } 
+ #Mygoal{
+     padding: 50px;
+     margin :50;
+     text-align: center;
+     width: 20px;
+  } 
+
+ #blogs.images{
+     padding: 0;
+     margin: 10;
+     text-align: center;
+
+ }
+ #Education{
+     text-align: left;
+     font-style: oblique;
+     font-size: 20px;
+ }
+ 
+ .login{
+     width: 350px;
+     height: 500px;
+     background: gray;
+     color: green;
+     top: -60%;
+     left: 50%;
+     position: static; 
+     /* transform: translate(-50% -50%); */
+     box-sizing: border-box;
+}
+.log{
+    width:90px;
+    height: 90px;
+    border-radius:40%;
+    position: absolute;
+    top: -50px;
+    left: calc(50% -50%);
+}
+#user{
+    padding: 0;
+    margin: 0;
+    font-size: 20px;
+    font-style: italic;
+    text-align: left;
+}
+#pass{
+    padding: 10px;
+    margin: 0;
+    font-size: 20px;
+    text-align: left;
+}
+.login input{
+    width: 90px;
+    margin-bottom: 30px;
+}
