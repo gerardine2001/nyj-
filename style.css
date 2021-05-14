@@ -89,16 +89,15 @@ p{
 
  }
  .paragraph{
-     padding: 20px;
-     margin: 20px;
-    font-size: 15px;
+     padding: 5px;
+     margin: 10px;
+    font-size: 50px;
     color: black;
     font-style: oblique;
-    text-align: center;
     margin-bottom: 80px;
     font-size: 20px;
-    display: inline-flex;
-    margin-top: right;
+    text-align:center ;
+    margin-top: 0px;
     box-sizing:border-box;
     
     
@@ -106,7 +105,8 @@ p{
 
  }
  .images{
-     text-align: left;
+     text-align: center;
+     padding: 5px;
 
  }
  
